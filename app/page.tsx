@@ -144,7 +144,6 @@ export default function Home() {
             {[
               { icon: Code2, label: "Cutting-edge Tech" },
               { icon: Sparkles, label: "Innovation" },
-              { icon: Code2, label: "Advanced Solutions" },
             ].map((item, index) => (
               <motion.div
                 key={item.label}
