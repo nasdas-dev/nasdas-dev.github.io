@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Sparkles, Zap, Globe, Code2 } from "lucide-react";
+import { ArrowRight, Sparkles, Globe, Code2 } from "lucide-react";
 import { useState, useEffect } from "react";
 
 export default function Home() {
@@ -111,8 +111,8 @@ export default function Home() {
               <span className="block text-gradient">coming soon</span>
             </h2>
             <p className="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
-              We're crafting extraordinary digital experiences that push the boundaries 
-              of what's possible. Stay tuned for groundbreaking innovations.
+              We&apos;re crafting extraordinary digital experiences that push the boundaries 
+              of what&apos;s possible. Stay tuned for groundbreaking innovations.
             </p>
           </motion.div>
 
@@ -144,6 +144,7 @@ export default function Home() {
             {[
               { icon: Code2, label: "Cutting-edge Tech" },
               { icon: Globe, label: "Global Impact" },
+              { icon: Sparkles, label: "Innovation" },
             ].map((item, index) => (
               <motion.div
                 key={item.label}
