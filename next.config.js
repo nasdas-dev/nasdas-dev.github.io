@@ -6,10 +6,6 @@ const nextConfig = {
   },
   // Ensure trailing slashes for proper static hosting
   trailingSlash: true,
-  // Disable server-side features
-  experimental: {
-    appDir: true,
-  },
 }
 
 module.exports = nextConfig 

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Sparkles, Globe, Code2 } from "lucide-react";
+import { ArrowRight, Sparkles, Code2 } from "lucide-react";
 import { useState, useEffect } from "react";
 
 export default function Home() {
@@ -144,6 +144,7 @@ export default function Home() {
             {[
               { icon: Code2, label: "Cutting-edge Tech" },
               { icon: Sparkles, label: "Innovation" },
+              { icon: Code2, label: "Advanced Solutions" },
             ].map((item, index) => (
               <motion.div
                 key={item.label}
