@@ -35,11 +35,16 @@ jobs:
       
       - name: Build with Next.js
         run: npm run build
+
+      - name: Copy static files
+        run: |
+          cp .nojekyll out/
+          cp README.md out/
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: out
 
   deploy:
     environment:
